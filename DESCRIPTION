@@ -1,0 +1,20 @@
+Package: pets
+Title: Evaluates Your Feelings About Pets
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aidan",
+           family = "Coyle",
+           role = c("aut", "cre"),
+           email = "afcoyle@uw.edu")
+Description: Pets are real neat and we love em. Or maybe not.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
